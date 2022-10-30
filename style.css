@@ -67,6 +67,7 @@ button {
   width: 60px;
   font-family: lato, sans-serif;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .button:hover {
@@ -117,6 +118,7 @@ label[for="new-task"] {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
+  text-transform: capitalize;
 
   display: flex;
   justify-content: space-between;
@@ -140,6 +142,7 @@ label[for="new-task"] {
 
 .task-item>input[type="text"] {
   width: 226px;
+  text-transform: inherit;
 }
 
 .delete img {

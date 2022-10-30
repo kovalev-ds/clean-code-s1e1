@@ -8,21 +8,21 @@
 </head>
 
 <body>
-  <div class="header">
-    <img src="./eisenhower-matrix.jpg">
+  <header class="header">
+    <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
     <a class="more-inf" 
         href="https://goal-life.com/page/method/matrix-eisenhower">want more details?</a>
-  </div>
-  <div class="main">
-    <p id="topsectionforaddingelementtolist">
+  </header>
+  <main class="main">
+    <div id="topsectionforaddingelementtolist">
       <label for="new-task">add item</label>
     <div class="task-row">
       <input id="new-task" class="task" type="text">
-      <button class="button">add</button>
+      <button id="add-new-task" class="button">add</button>
     </div>
-    </p>
+  </div>
     <h3>todo</h3>
-    <ul id="incompletetasks">
+    <ul id="incompleted-tasks">
       <li class="task-item">
         <input type="checkbox">
         <label class="task">pay bills</label>
@@ -48,7 +48,7 @@
         <button class="button delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
