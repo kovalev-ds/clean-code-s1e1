@@ -16,35 +16,35 @@
     <div id="topsectionforaddingelementtolist">
       <label for="new-task">add item</label>
       <div class="task-row">
-        <input id="new-task" class="task" type="text">
-        <button id="add-new-task" class="button">add</button>
+        <input id="new-task" class="task-row__input task" type="text">
+        <button id="add-new-task" class="task-row__button button">add</button>
       </div>
     </div>
     <h3>todo</h3>
     <ul id="incompleted-tasks">
       <li class="task-item">
-        <input type="checkbox">
-        <label class="task">pay bills</label>
-        <input type="text" class="task">
-        <button class="button edit">edit</button>
-        <button class="button delete"><img src="./remove.svg" alt="remove"></button>
+        <input class="task-item__checkbox" type="checkbox">
+        <label class="task-item__label task">pay bills</label>
+        <input type="text" class="task-item__input task">
+        <button class="task-item__edit-btn button edit">edit</button>
+        <button class="task-item__delete-btn button delete"><img src="./remove.svg" alt="remove"></button>
       </li>
       <li class="task-item editmode">
-        <input type="checkbox">
-        <label class="task">go shopping</label>
-        <input type="text" value="go shopping" class="task">
-        <button class="button edit">save</button>
-        <button class="button delete"><img src="./remove.svg" alt="remove"></button>
+        <input class="task-item__checkbox" type="checkbox">
+        <label class="task-item__label task">go shopping</label>
+        <input type="text" value="go shopping" class="task-item__input task">
+        <button class="task-item__edit-btn button edit">save</button>
+        <button class="task-item__delete-btn button delete"><img src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
     <h3>completed</h3>
     <ul id="completed-tasks">
       <li class="task-item">
-        <input type="checkbox" checked>
-        <label class="task">see the doctor</label>
-        <input type="text" class="task">
-        <button class="button edit">edit</button>
-        <button class="button delete"><img src="./remove.svg" alt="remove"></button>
+        <input class="task-item__checkbox" type="checkbox" checked>
+        <label class="task-item__label task">see the doctor</label>
+        <input type="text" class="task-item__input task">
+        <button class="task-item__edit-btn button edit">edit</button>
+        <button class="task-item__delete-btn button delete"><img src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
   </main>
